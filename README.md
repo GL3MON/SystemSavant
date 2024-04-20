@@ -12,7 +12,63 @@ This project is a tutor for Computer Organization and its related domains. The c
 
 ## Project Structure
 
-'''
-ffff
-'''
+```
+SystemSavant
+│   .gitignore
+│   app.py
+│   Dockerfile
+│   LICENSE
+│   params.yaml
+│   README.md
+│   requirements.txt
+│   setup.py
+│   template.py
+│
+├───.github
+│   └───workflows
+│           .gitkeep
+│
+├───artifacts
+│   └───data
+│           IODEVICE.pdf
+│
+├───config
+│       config.yaml
+│       params.yaml
+│
+├───logs
+│       running_logs.log
+│
+├───research
+│       trails.ipynb
+│
+└───src
+    └───SystemSavant
+        │   __init__.py
+        │
+        ├───components
+        │       llm.py
+        │       __init__.py
+        │
+        ├───config
+        │       configuration.py
+        │       __init__.py
+        │
+        ├───constants
+        │       __init__.py
+        │
+        ├───entity
+        │       __init__.py
+        │
+        ├───logging
+        │       __init__.py
+        │
+        ├───pipeline
+        │       inference.py
+        │       __init__.py
+        │
+        └───utils
+                common.py
+                __init__.py
+```
    
