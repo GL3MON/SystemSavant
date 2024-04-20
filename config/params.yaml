@@ -1,0 +1,11 @@
+llm:
+  model_name: meta-llama/Llama-2-7b-chat-hf
+  bit_4_quant: True
+  temperature: 0.8
+  context_window: 2048
+  max_new_token: 512
+  device: auto
+  chunk_size: 512
+
+embedding:
+  huggingface: sentence-transformers/all-mpnet-base-v2
