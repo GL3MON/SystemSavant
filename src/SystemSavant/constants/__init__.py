@@ -13,4 +13,4 @@ accurately as possible based on the instructions and context provided.
 
 QUERY_PROMPT = "{query_str}"
 
-HF_TOKEN = "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"
+HF_TOKEN = ""
